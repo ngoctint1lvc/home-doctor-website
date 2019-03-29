@@ -1,0 +1,122 @@
+tien_phone = 933906362
+
+
+
++++++++++++++++++++++++++++++++++
+
+
+var token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvaG9tZWRvY3Rvci50aGlldGtlMjRoLmNvbVwvYXBpXC92MS4wLjBcL3VzZXJcL3ZlcmlmeWFja3Rva2VuIiwiaWF0IjoxNTM3NjAwMzIwLCJleHAiOjE1Njg3MDQzMjAsIm5iZiI6MTUzNzYwMDMyMCwianRpIjoiaXdKSDQ3WW96eUVPVkpNYiIsInN1YiI6NjEsInBydiI6IjE3MmM5MWRkNDgxYThkZTQxNWUxNjRmZGE3MzdkZTc2ZmE3NWRjYjQifQ._F31pvl1vRFQssPVveT-_8iBWqFhBWQOyE3AQ1WiUL4"
+var form = document.querySelector('#create-account-form');
+var data = new FormData();
+data.append('token', token);
+data.append('file_image', form.avatar.files[0]);
+data.append('type', 'avatar');
+
+fetch("https://homedoctor.thietke24h.com/api/v1.0.0/upload/image", {
+    method: 'post',
+    body: data
+  })
+  .then(data => {
+	console.log(data);
+	return data.json();
+}).then(data => {
+	console.log(data);
+});
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+var Cookies = {
+token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvaG9tZWRvY3Rvci50aGlldGtlMjRoLmNvbVwvYXBpXC92MS4wLjBcL3VzZXJcL3ZlcmlmeWFja3Rva2VuIiwiaWF0IjoxNTM3NjAwMzIwLCJleHAiOjE1Njg3MDQzMjAsIm5iZiI6MTUzNzYwMDMyMCwianRpIjoiaXdKSDQ3WW96eUVPVkpNYiIsInN1YiI6NjEsInBydiI6IjE3MmM5MWRkNDgxYThkZTQxNWUxNjRmZGE3MzdkZTc2ZmE3NWRjYjQifQ._F31pvl1vRFQssPVveT-_8iBWqFhBWQOyE3AQ1WiUL4"};
+var form = document.querySelector('#create-account-form');
+
+            function uploadFile(token, fileImage, type, callBack){
+                let data = new FormData();
+                data.append('token', token);
+                data.append('file_image', fileImage);
+                data.append('type', type);
+                fetch('https://homedoctor.thietke24h.com/api/v1.0.0/upload/image', {
+                    method: "POST",
+                    mode: "cors",
+                    body: data
+                }).then(response => {
+                    //console.log(response);
+                    return response.json();
+                }).then(response => {
+                    callBack(response);
+                }).catch(error => {
+                    callBack(error);
+                });
+            }
+
+            function finishCreateAccount(){
+                console.log('you can create your account');
+            }
+
+            // upload avatar images
+            var avatarFilePath = '';
+            if(form.avatar.files.length > 0){
+                uploadFile(Cookies.token, form.avatar.files[0], 'avatar', function(response) {
+                    if(response.code == 200){
+                        avatarFilePath = response.data.path;
+			console.log(response);
+                        if(uploadFileDone()) finishCreateAccount();
+                    }
+                });
+            }
+
+            // upload certificate images
+            var profileIdList = [];
+            for(let i = 0; i < form.profile.files.length; i++) {
+                uploadFile(Cookies.get.token, form.profile.files[i], 'certificate', function(response){
+                    if(response.code && response.code == 200){
+                        profileIdList.push(response.data.id);
+			console.log(response);
+                        if(uploadFileDone()) finishCreateAccount();
+                    }
+                });
+            }
+
+            // bool variable to check if we are already to create account (finish upload image)
+            var uploadFileDone = function() {return (profileIdList.length == form.profile.files.length) && (form.avatar.files.length == 0 || avatarFilePath);}
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+fix cardid_province
+
+var data = new FormData();
+data.append('token', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvaG9tZWRvY3Rvci50aGlldGtlMjRoLmNvbVwvYXBpXC92MS4wLjBcL3VzZXJcL3ZlcmlmeWFja3Rva2VuIiwiaWF0IjoxNTM3NjAxNDI5LCJleHAiOjE1Njg3MDU0MjksIm5iZiI6MTUzNzYwMTQyOSwianRpIjoickJPZnNuUFdtd29UNFd2RCIsInN1YiI6NTIsInBydiI6IjE3MmM5MWRkNDgxYThkZTQxNWUxNjRmZGE3MzdkZTc2ZmE3NWRjYjQifQ.t8PhXDa4BNtU18U8gGWrHroqK9ozaWa2bEot7CJx1p0')
+fetch('https://homedoctor.thietke24h.com/api/v1.0.0/location/province', {
+                    method: "POST",
+                    mode: "cors",
+                    body: data
+                }).then(response => {
+                    //console.log(response);
+                    return response.json();
+                }).then(response => {
+                    console.log(response);
+                }).catch(error => {
+                    console.log(error);
+                });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

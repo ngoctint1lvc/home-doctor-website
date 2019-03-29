@@ -1,0 +1,380 @@
+[
+    {
+        "provinceid": "89",
+        "name": "An Giang",
+        "name_en": "An Giang",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "77",
+        "name": "Bà Rịa - Vũng Tàu",
+        "name_en": "Ba Ria - Vung Tau",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "24",
+        "name": "Bắc Giang",
+        "name_en": "Bac Giang",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "06",
+        "name": "Bắc Kạn",
+        "name_en": "Bac Kan",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "95",
+        "name": "Bạc Liêu",
+        "name_en": "Bac Lieu",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "27",
+        "name": "Bắc Ninh",
+        "name_en": "Bac Ninh",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "83",
+        "name": "Bến Tre",
+        "name_en": "Ben Tre",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "52",
+        "name": "Bình Định",
+        "name_en": "Binh Dinh",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "74",
+        "name": "Bình Dương",
+        "name_en": "Binh Duong",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "70",
+        "name": "Bình Phước",
+        "name_en": "Binh Phuoc",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "60",
+        "name": "Bình Thuận",
+        "name_en": "Binh Thuan",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "96",
+        "name": "Cà Mau",
+        "name_en": "Ca Mau",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "92",
+        "name": "Cần Thơ",
+        "name_en": "Can Tho",
+        "type": "Thành Phố"
+    },
+    {
+        "provinceid": "04",
+        "name": "Cao Bằng",
+        "name_en": "Cao Bang",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "48",
+        "name": "Đà Nẵng",
+        "name_en": "Da Nang",
+        "type": "Thành Phố"
+    },
+    {
+        "provinceid": "66",
+        "name": "Đắk Lắk",
+        "name_en": "Dak Lak",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "67",
+        "name": "Đắk Nông",
+        "name_en": "Dak Nong",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "11",
+        "name": "Điện Biên",
+        "name_en": "Dien Bien",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "75",
+        "name": "Đồng Nai",
+        "name_en": "Dong Nai",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "87",
+        "name": "Đồng Tháp",
+        "name_en": "Dong Thap",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "64",
+        "name": "Gia Lai",
+        "name_en": "Gia Lai",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "02",
+        "name": "Hà Giang",
+        "name_en": "Ha Giang",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "35",
+        "name": "Hà Nam",
+        "name_en": "Ha Nam",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "01",
+        "name": "Hà Nội",
+        "name_en": "Ha Noi",
+        "type": "Thành Phố"
+    },
+    {
+        "provinceid": "42",
+        "name": "Hà Tĩnh",
+        "name_en": "Ha Tinh",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "30",
+        "name": "Hải Dương",
+        "name_en": "Hai Duong",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "31",
+        "name": "Hải Phòng",
+        "name_en": "Hai Phong",
+        "type": "Thành Phố"
+    },
+    {
+        "provinceid": "93",
+        "name": "Hậu Giang",
+        "name_en": "Hau Giang",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "79",
+        "name": "Hồ Chí Minh",
+        "name_en": "Ho Chi Minh",
+        "type": "Thành Phố"
+    },
+    {
+        "provinceid": "17",
+        "name": "Hòa Bình",
+        "name_en": "Hoa Binh",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "33",
+        "name": "Hưng Yên",
+        "name_en": "Hung Yen",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "56",
+        "name": "Khánh Hòa",
+        "name_en": "Khanh Hoa",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "91",
+        "name": "Kiên Giang",
+        "name_en": "Kien Giang",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "62",
+        "name": "Kon Tum",
+        "name_en": "Kon Tum",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "12",
+        "name": "Lai Châu",
+        "name_en": "Lai Chau",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "68",
+        "name": "Lâm Đồng",
+        "name_en": "Lam Dong",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "20",
+        "name": "Lạng Sơn",
+        "name_en": "Lang Son",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "10",
+        "name": "Lào Cai",
+        "name_en": "Lao Cai",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "80",
+        "name": "Long An",
+        "name_en": "Long An",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "36",
+        "name": "Nam Định",
+        "name_en": "Nam Dinh",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "40",
+        "name": "Nghệ An",
+        "name_en": "Nghe An",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "37",
+        "name": "Ninh Bình",
+        "name_en": "Ninh Binh",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "58",
+        "name": "Ninh Thuận",
+        "name_en": "Ninh Thuan",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "25",
+        "name": "Phú Thọ",
+        "name_en": "Phu Tho",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "54",
+        "name": "Phú Yên",
+        "name_en": "Phu Yen",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "44",
+        "name": "Quảng Bình",
+        "name_en": "Quang Binh",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "49",
+        "name": "Quảng Nam",
+        "name_en": "Quang Nam",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "51",
+        "name": "Quảng Ngãi",
+        "name_en": "Quang Ngai",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "22",
+        "name": "Quảng Ninh",
+        "name_en": "Quang Ninh",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "45",
+        "name": "Quảng Trị",
+        "name_en": "Quang Tri",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "94",
+        "name": "Sóc Trăng",
+        "name_en": "Soc Trang",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "14",
+        "name": "Sơn La",
+        "name_en": "Son La",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "72",
+        "name": "Tây Ninh",
+        "name_en": "Tay Ninh",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "34",
+        "name": "Thái Bình",
+        "name_en": "Thai Binh",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "19",
+        "name": "Thái Nguyên",
+        "name_en": "Thai Nguyen",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "38",
+        "name": "Thanh Hóa",
+        "name_en": "Thanh Hoa",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "46",
+        "name": "Thừa Thiên Huế",
+        "name_en": "Thua Thien Hue",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "82",
+        "name": "Tiền Giang",
+        "name_en": "Tien Giang",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "84",
+        "name": "Trà Vinh",
+        "name_en": "Tra Vinh",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "08",
+        "name": "Tuyên Quang",
+        "name_en": "Tuyen Quang",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "86",
+        "name": "Vĩnh Long",
+        "name_en": "Vinh Long",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "26",
+        "name": "Vĩnh Phúc",
+        "name_en": "Vinh Phuc",
+        "type": "Tỉnh"
+    },
+    {
+        "provinceid": "15",
+        "name": "Yên Bái",
+        "name_en": "Yen Bai",
+        "type": "Tỉnh"
+    }
+]
